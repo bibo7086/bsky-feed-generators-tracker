@@ -1,0 +1,79 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyz
+*.pyzw
+*.pycachefile
+
+# Go
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+config.go
+config.json
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+ehthumbs.db
+Thumbs.db
+
+# IDEs and Editors
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Compiled binaries
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+*.test
+
+# Logs, data and crash reports
+*.log
+*.crash
+data/
+downloaded_metadata/
+downloaded_metadata_new/
+labelers_metadata/
+sample_metadata/
+sample_posts/ 
+new_metadata/
+similarity_results.csv
+similarity_results.csv.zip
+feeds_posts_with_labels.csv 
+
+# Temporary files
+*.swp
+*~
+
+# Node.js / Express
+node_modules/
+node_modules 2/
+npm-debug.log
+yarn-error.log
+playground/*
+downloaded_posts/
+
+# Compiled TypeScript
+/dist/
+*.js.map
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Environment variables
+.env
+
+
