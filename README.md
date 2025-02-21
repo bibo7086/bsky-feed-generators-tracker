@@ -66,7 +66,7 @@ The following schema defines the structure of the database:
     ```sql
     CREATE TABLE feed_generators (
         aturi TEXT PRIMARY KEY,
-        posts TEXT[] 
+        metadata JSONB
     );
     ```
 
