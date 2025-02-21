@@ -2,6 +2,31 @@
 
 This repository contains the code for downloading feed posts and their metadata from the BlueSky social platform (via the [Indigo API](https://github.com/bluesky-social/indigo)) and storing them in a PostgreSQL database.
 
+The code and dataset were used for the research paper **Looking AT the Blue Skies of Bluesky**,
+which was presented at **IMC'24** ([link](https://dl.acm.org/doi/10.1145/3646547.3688407), [arXiv](https://arxiv.org/abs/2408.12449)).
+
+If you use these tools or datasets for academic work, please cite our publication:
+
+```
+@inproceedings{10.1145/3646547.3688407,
+author = {Balduf, Leonhard and Sokoto, Saidu and Ascigil, Onur and Tyson, Gareth and Scheuermann, Bj\"{o}rn and Korczy\'{n}ski, Maciej and Castro, Ignacio and Kr\'{o}l, Michaundefined},
+title = {Looking AT the Blue Skies of Bluesky},
+year = {2024},
+isbn = {9798400705922},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3646547.3688407},
+doi = {10.1145/3646547.3688407},
+abstract = {The pitfalls of centralized social networks, such as Facebook and Twitter/X, have led to concerns about control, transparency, and accountability. Decentralized social networks have emerged as a result with the goal of empowering users. These decentralized approaches come with their own trade-offs, and therefore multiple architectures exist. In this paper, we conduct the first large-scale analysis of Bluesky, a prominent decentralized microblogging platform. In contrast to alternative approaches (e.g. Mastodon), Bluesky decomposes and opens the key functions of the platform into subcomponents that can be provided by third party stakeholders. We collect a comprehensive dataset covering all the key elements of Bluesky, study user activity and assess the diversity of providers for each sub-components.},
+booktitle = {Proceedings of the 2024 ACM on Internet Measurement Conference},
+pages = {76–91},
+numpages = {16},
+keywords = {bluesky, decentralized social networks, social network analysis},
+location = {Madrid, Spain},
+series = {IMC '24}
+}
+```
+
 ## Prerequisites
 
 Before running the code, you need to set up the following:
